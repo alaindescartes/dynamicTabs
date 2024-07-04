@@ -1,3 +1,21 @@
+Tab Component
+
+The Tab component is part of a tabbed interface where only one tab's content is visible at a time. It renders a button for the tab itself and conditionally renders content based on whether the tab is currently active.
+
+Features
+
+Toggleable Visibility: Each tab can be toggled to show or hide its content.
+Reactive Update: The component updates its display based on user interaction or external controls.
+Flexible Text Content: Supports dynamic text content passed via props.
+
+Usage
+The Tab component is designed to be used within a parent component that manages the state of which tab is currently active. It requires several props to be passed for proper functionality:
+
+name: A string that represents the label of the tab.
+text: The content to display when the tab is active.
+toggle: A function that controls the visibility of the tab content.
+isActive: A boolean that determines if the tab's content should be shown.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,0 +1,34 @@
+.tab {
+  padding: 10px;
+  border: none; /* Light grey border for the tab container */
+  margin: 5px;
+  background-color: #f8f8f8; /* Light grey background */
+}
+
+.tab button {
+  padding: 8px 16px;
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer; /* Cursor pointer to indicate it's clickable */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.tab button:hover {
+  background-color: #0056b3; /* Darker shade of blue on hover */
+}
+
+.tab button:focus {
+  outline: none; /* Removes outline on focus for cleaner look */
+  box-shadow: 0 0 5px #5b9dd9; /* Adds a light box shadow when button is focused */
+}
+
+.tab p {
+  color: #333; /* Dark grey color for text */
+  margin-top: 8px; /* Space between button and text */
+}
+
+.visible {
+  visibility: hidden;
+}

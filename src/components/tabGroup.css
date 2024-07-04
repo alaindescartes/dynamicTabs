@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column; /* Stack the tabs vertically */
+  align-items: flex-start; /* Aligns tabs to the left */
+  padding: 20px; /* Padding around the entire container */
+  border: 1px solid #dedede; /* Light grey border for the container */
+  border-radius: 8px; /* Rounded corners for the container */
+  width: 300px; /* Fixed width, adjust as necessary */
+  background-color: #f9f9f9; /* Slightly off-white background for the container */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow to lift the container off the page */
+  margin: auto; /* Center the container horizontally */
+  gap: 10px; /* Space between each tab */
+}
+
+.tab {
+  width: 100%; /* Each tab takes the full width of the container */
+  cursor: pointer; /* Indicate that the tab can be clicked */
+}
+
+.tab button {
+  width: 100%; /* Button fills its container for easier clicking */
+  text-align: left; /* Align text to the left inside the button */
+}
+
+.tab p {
+  padding-left: 20px; /* Padding to indent the text slightly from the button */
+}

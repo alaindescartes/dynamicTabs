@@ -1,9 +1,10 @@
 import "./App.css";
+import TabGroup from "./components/TabGroup";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">hey</header>
+      <TabGroup />
     </div>
   );
 }
